@@ -1,0 +1,16 @@
+Download from:
+[Mirror 1] https://map2seq-assets.schumann.pub/files/VELMA/CLIP-ViT-bigG-14-laion2B-39B-b160k.zip
+or
+[Mirror 2] https://www.cl.uni-heidelberg.de/~rschuman/files/VELMA/CLIP-ViT-bigG-14-laion2B-39B-b160k.zip
+
+
+The zip-File contains the following files:
+
+- flow_of_traffic_images.pickle
+- images_60_460_800.pickle
+- landmarks.pickle
+- landmarks_mean_std.pickle
+- meta_60_460_800.json
+
+
+Extract all files and move them into the 'CLIP-ViT-bigG-14-laion2B-39B-b160k' folder.

@@ -1,0 +1,18 @@
+Navigate to the described target location!
+
+Action Space:
+forward (go straight), left (rotate left), right (rotate right), turn_around (make a u-turn), stop (end navigation)
+
+Navigation Instructions:
+"{}"
+Action Sequence:
+{}
+
+Navigation Instructions:
+"{}"
+Action Sequence:
+{}
+
+Navigation Instructions:
+"{}"
+Action Sequence:
