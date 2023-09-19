@@ -33,6 +33,15 @@ python run_inference_llama.py --num_instances -1 --dataset_name map2seq --split 
 python run_inference_llama.py --num_instances -1 --dataset_name map2seq --split dev --model_name facebook/opt-1.3b
 ```
 
+## Reproduce VELMA-FT and VELMA-RBL Results in Paper:
+```
+python run_inference_ft.py --weights_dir weights/VELMA-FT-touchdown/ --dataset_name touchdown --splits dev test
+python run_inference_ft.py --weights_dir weights/VELMA-FT-map2seq/ --dataset_name map2seq --splits dev test
+python run_inference_ft.py --weights_dir weights/VELMA-RBL-touchdown/ --dataset_name touchdown --splits dev test
+python run_inference_ft.py --weights_dir weights/VELMA-RBL-map2seq/ --dataset_name map2seq --splits dev test
+```
+
+
 # Finetuning
 Regular finetuning:
 ```
