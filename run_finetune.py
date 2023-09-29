@@ -143,6 +143,7 @@ def main():
     model.config.use_cache = False
 
     old_state_dict = model.state_dict
+    # This will not work in newer versions of peft! https://github.com/huggingface/peft/issues/317
     model.state_dict = (lambda self, *_, **__: get_peft_model_state_dict(self, old_state_dict())).__get__(model, type(model))
 
     trainer.train()
